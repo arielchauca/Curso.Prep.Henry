@@ -1,0 +1,46 @@
+    * Variables
+	* Strings
+	* Funciones (argumentos, `return`)
+	* Declaraciones `if`
+	* Valores booleanos (`true`, `false`)
+
+Variables:
+Las variables son espacios en memoria, que viene a ser por ejemplo como una caja en la que colocamos cosas, esa caja cuetna con un nombre y ademas tambien tiene una forma
+esa foram viene a ser el tipo de variable que quiero decir con esto que si nuestra caja (variable) tiene una forma (tipo de variable) de una guitarra en esa caja no vamos 
+a poder guardar nada mas que guitarras, pero en esta caso en javascript no es necesario especificar su tipo de variable solo basta con crear una variable, para eso usamos
+la palabra var, let o const de esta manera:
+
+var nombre de la variable = 'contenido de esa variable';
+
+Strings:
+Bueno los strings son un tipo de variable que acepta letras puede ser 1 letra como pueden ser muchas, a estas letras tambien las podemos llamar cadena de caracteres.
+estas cadenas las ingresamos dentro de nuestras variables de esta manera:
+
+var lenguaje = 'Javascript'; las strings van entre parentesis sean simples o dobles.
+
+Funciones ():
+Bueno las funcones son objetos invocables que usamos cuando tenemos que hacer algun codigo que se repite varias veces, para ahorrarnos ese tiempo de codificacion osea de
+escribir ese codigo una y otra ves 'x' cantidad de veces. Para ello usamos lo que viene siendo la funcion, Esta funcion tiene una estructura que inicia por la palabra
+"function" que le dice a nuestro programa que lo que viene es una funcion, seguido del nombre de como se llamara nuestra funcion y entre parentesis van nuestros argumentos.
+
+Argumentos:
+Estos argumentos son las variables que se utilizaran para asignarselas dentro de la funcion, las colocamos dentro de los parentesis aca a dentro sele puede poner mas de un
+argumento solo debemos separarlos por una coma ',' continuamos abriendo llaves {} dentro de estas viene todo nuestro codigo que escribiremos para que sea ejecutado cuando 
+llamamos a la  funcion, Dentro de estas podemos tener un Return.
+
+Return:
+Return es la unica manera de sacar un dato de una funcion, ademas que cuando la funcion llega al return esta funcion terminara aunque debajo de el return sigamos teniendo
+codigo que ejecutar.
+
+Declaraciones 'if':
+Esta declaracion la usamos como una estructura para que nos devuelva una respuesta correcta o incorrecta (true of false) ejemplo.
+if (numero === 1) { return true;} else { return false;}
+
+Nosotros damos una condicion si dentro de la variable que creamos llamada numero tiene el numero 1 entonces nos devolvera como respuesta return true y terminara el codigo
+pero si el numero que tiene esa variable es distinto a 1 entonces omitira esa parte del codigo y se ejecutara el else donde nos dara la respuesta return false; y terminara
+nuestras funcion.
+
+Valores booleanos  ('true', 'false'):
+
+Bueno los valores booleanos estos los usamos para dar 2 valores estos son true or false, es decir verdadero o falso. como tambien puede significar 1 o 0 , activar o desactivar.
+
