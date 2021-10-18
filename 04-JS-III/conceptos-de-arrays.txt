@@ -1,0 +1,14 @@
+Arrays 
+Bueno los arrays son un tipo de arreglo que tambien declaramos como una variable, en este array en ves de tener solo 1 contenido como por ejemplo numero, una palabra, un dato
+tipo de booleano. el array puede tener todos estos tipos y ademas puede tenerlos todos al mismo tiempo porque un array es como una caja dividida por la cantidad de espacios que
+nosotros querramos por ejemplo.
+
+const nuevaArray = ['ariel', 28 , true] aca creamos una array con 3 lugares con datos de tipos diferentes en su interior. a el primer dato esta en la posicion 0 no en el 1. 
+y va avanzando de esa manera 0, 1, 2, 3, 4, 5 .... segun sean sus espacios.
+
+para saber que cantidad de datos guarda un array podemos hacerlo con nombreArray.length que nos cuenta la cantidad de espacios que tenemos en el array.
+
+o si queremos imprimir solo un dato en especifico de una posicion del array podemos hacerlo con console.log(nuevoArray[2]) aca imprimimos el contenido de la posicion 3
+porque recuerda que inicia desde el 0 las posiciones del array si pongo 2 contara 0, 1, 2 por ende nos dara el tercer dato que tengamos guardado.
+
+tenemos mas metodos para usar arrays como .push .pop .shift .unshift.
