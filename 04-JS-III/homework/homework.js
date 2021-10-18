@@ -251,6 +251,7 @@ function breakStatement(numero) {
   for (let i = 0; i < 10; i++){
     if ( valor === i){
       return 'Se interrumpió la ejecución';
+      break;
     } else {
       valor = valor + 2;
       numero2.push(valor);
