@@ -1,0 +1,23 @@
+* `for`
+* `&&`, `||`, `!`
+
+for: es un ciclo donde vamos a colocar un punto de partida, tendremos una condicion que ejecutara ciclo hasta que deje de cumplirse y terminara de ejecutarse , y ademas tendra 
+un acumulador que se sumara a lo que colocamos como punto de partida.
+dentro del for colocaremos la instruccion que nosotros queremos que se ejecute una y otra ves hasta que nuestra condicion no se cumpla.
+
+&&: es un operador logico que evaluara 2 expresiones las cuales ambas deben cumplirse para que continue con la codificacion en el caso de if podriamos poner un ejemplo
+if (numero > 1 && numero < 10) quiere decir si tenemos un numero mayor a 1 y que ademas a su ves sea menor a 10 cumplira con la consigna que pide y continuara ejecutando el if.
+
+||:
+es otro operador logico que evalua 2 expresiones pero en este caso solo es necesario que se cumpla 1 de las 2 expresiones que tiene para que se cumpla con la consigna pero tambien
+pueden cumplirse ambas y seguira con el codigo ejemplo:
+if(numero < 10 || numero > 100) lo que dice aca es que si tenemos una variabla que contenga un numero menor a 10 continuara con ejecutando el codigo de if, pero si la variable 
+tiene un numero mayor a 100 tambien se podra ejecutar la codificacion del if. en que caso no se cumpliria este || bueno en este ejemplo si nuestra variable fuera 10,11, 12,13,..100
+en ese caso no se cumpliria la consigna por ende pasaria a la parte del else.
+
+
+`!`: 
+bueno otro operador logico es NO pero lo represetamos como ! lo que nos suguiere que si una condicion se cumple y antes de esta le ponemos ! quiere decir que si esa condicion
+se cumple no continuara con ese codigo ejemplo:
+if (!(numero===1)) bueno aca nos dice que si numero es igual a 1 entonces se cumple con la consigna pero fuera tenemos el ! eso quiere decir que si numero =1  el codigo de if
+no se ejecutara porque en realidad podemos leerlo como que (si numero es igual 1 que no se cumpla esta consigna)
