@@ -1,0 +1,44 @@
+    * Objetos
+	* Propiedades
+	* Métodos
+	* Bucle `for…in`
+	* Notación de puntos vs notación de corchetes
+
+Objetos:
+los objetos son similares a los arrays pero en ves de tener un como los arrays muchos tipos de elementos, un objeto tiene muchos datos de un mismo elemento. declaramos un objeto
+con llaves enves de corchetes como en una array de esta manera:
+
+var objeto={
+    key: value, // tenemos un key que llamamos tambien propiedad que va a ser el nombre de nuestras propiedad y value es el valor que va atener que pueden ser muchos.
+    nombre: ariel,   //como pueden ser numeros, booleanos, strings, undefined, null, funciones, arrays, otros metodos,
+    contraseña: 123,
+    edad: 28   // todos nuestras propiedades y valores una ves declarados los separamos por comas ','.
+}
+
+para llamar un objeto y al contenido de su respectiva propiedad lo hacemos de esta manera.
+
+ objeto.nombre  aca nombramos el nombre del objeto punto seguido de la propiedad  en este caso nombre, lo que nos dara sera el nombre que contenga la propiedad nombre
+ del objeto objeto.
+
+Propiedades es el nombre que le damos a las keys dentro de nuestros objetos que nos serviran para llamar por su nombre el contenido que tengan.
+
+Metodos los metodos son las funciones pero dentro de los objetos llevan el nombre de metodos.
+
+bucle for in bueno este es igual al for tradicional pero los objetos no cuentan con un indice numerico como lso arrays asi que lo que hace el for in es 
+declarar un nombre puede ser cualquiera pero este vendria a ser nuestro iterador y despues in y ponemos el nobmre del objeto 
+que va a hacer esto va a recorrer cada uno de nuestros keys en nuestro objeto y termina cuando halla terminado de recorrer las keys las propiedades.
+lo representamos de esta manera 
+for (let nuevaVariable in nombreDelObjeto){
+    console.log (nuevaVariable)         //nos imprime la nuevaVariable que es la que pasa por nuestras key por ende nos devuelve el nombre de la propiedad(key)
+   console.log(nombreDelObjeto[nuevaVariable])  // nos imprime el contenido de la propiedad que tengamos donde este actualemente  la nuevaVariable que usamos como 
+}                                               // puntero en nuestro for in para que nos devuelva el contenido.
+                                                // este codigo nos devolvera tanto el nombre de la propiedad como su contenido.
+
+la notacion de puntos vs notacion de corchetes nos ayuda a simplificar la sintaxis de un codigo para ahorrarnos pasos dado que una notacion de corchetes se ve de esta manera:
+
+nombre[propiedad] = 'ariel'; aca le estamos a signando a el objeto nombre en la propiedad o key propiedad  en su interior el string ariel.
+
+nombre.porpiedad = 'ariel'; aca hacemos exactamente lo mismo pero simplificamos la sintanxis.
+
+ahora cual es la diferencia que si nosotros ponemos nombre.propiedad es porque sabemos que si o si existe dentro del objeto una propiedad llamada propiedad.
+pero si esta como nombre[propiedad] aca le aclaramos que puede esta tanto ese nombre como si le asignaramos un argumento que contenga un nombre distinto.
