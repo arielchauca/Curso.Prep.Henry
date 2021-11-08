@@ -1,0 +1,40 @@
+*{
+    text-align:center; /*lo use para centrar los textos que faltaban en la pagina, porque la consigna era centrar los elementos y me faltanba solo los tipo texto*/
+    list-style:none; /*agrege esta propiedad para que elimine los puntos de mi lista porque aparecia al lado de las imagenes*/
+}
+.fondo{  /* utilize background-image para agregar una imagen de fondo con una class fondo aunque tambien podia utilizar el elemento body enves de crear una class*/ 
+    background-image: url("https://steamuserimages-a.akamaihd.net/ugc/940586530515504757/CDDE77CB810474E1C07B945E40AE4713141AFD76/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false");
+}
+h1, h3, h4, span{
+    color:white;  /*lo cambie para que con respecto de mi imagen de fondo se pueda entender y lograr ver el texto*/
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+img{
+    width:400px;
+}
+#thirdDiv{
+    height:600px;
+    width:500px;
+    background-color: darkgoldenrod;
+    padding: 50px 65px 50px 35px;   /*al borrar los puntos de la lista se modifico el centrado de los elementos dentro de la caja asi que para que se vea mas centrado cambie los
+                                        valores de los padding, para que se vea mas uniforme, aun desconosco si podia utilizar otra propiedad*/
+    border:15px solid orange;
+    margin-left: auto;              /*tras buscar por internet me encontre con esta manera de centrar los divs*/
+    margin-right: auto;           /*idem*/
+    display:flex;               
+    justify-content:center;
+    align-items:center;
+
+}
+#spanId{
+    display:inline; /*coloque un inline para que no salte al siguiente reglon*/
+    font-size: 18px;
+    margin: 50px;
+}
+
+a{
+    color:yellow;   /*agrege este color para que se pueda ver con el fondo*/
+}
